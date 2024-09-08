@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root {
+	/**TEXT*/
+	--base-font-family: 'SUSE', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		'Helvetica Neue', Ubuntu, Arial, sans-serif;
+	--base-font-size: 18px;
+
+	/**COLORS*/
+	--base-dark: #181f1c;
+}

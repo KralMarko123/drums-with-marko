@@ -1,0 +1,9 @@
+body {
+	background-color: var(--base-dark);
+	color: white;
+}
+
+.title {
+	font-size: 3rem;
+	font-weight: bold;
+}
