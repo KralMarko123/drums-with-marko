@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/drum-with-marko/static/css/main.368cc87e.css",
+    "main.js": "/drum-with-marko/static/js/main.32981fb9.js",
+    "static/media/rudiments thumbnail.jpg": "/drum-with-marko/static/media/rudiments thumbnail.331b1ce9e5f025006343.jpg",
+    "static/media/exercises thumbnail.jpg": "/drum-with-marko/static/media/exercises thumbnail.474e2ac4a1662b156efb.jpg",
+    "static/media/grooves thumbnail.jpg": "/drum-with-marko/static/media/grooves thumbnail.145208ae7208c457946b.jpg",
+    "static/media/songs thumbnail.jpg": "/drum-with-marko/static/media/songs thumbnail.17311dd0e1dd8ae17fd5.jpg",
+    "static/media/warmup thumbnail.jpg": "/drum-with-marko/static/media/warmup thumbnail.a56c993c1390fd1d07c1.jpg",
+    "static/media/dice thumbnail.jpg": "/drum-with-marko/static/media/dice thumbnail.8dfe2dc7b9e0936a31e9.jpg",
+    "index.html": "/drum-with-marko/index.html",
+    "main.368cc87e.css.map": "/drum-with-marko/static/css/main.368cc87e.css.map",
+    "main.32981fb9.js.map": "/drum-with-marko/static/js/main.32981fb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.368cc87e.css",
+    "static/js/main.32981fb9.js"
+  ]
+}
