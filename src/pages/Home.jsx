@@ -6,9 +6,15 @@ import './Home.css';
 const Home = () => {
 	return (
 		<div className='page home'>
-			<div className='page-container'>
+			<div className='container'>
 				{SECTIONS.map((s) => (
-					<Card key={s.title} title={s.title} description={s.description} image={s.image} />
+					<Card
+						key={s.title}
+						title={s.title}
+						description={s.description}
+						image={s.image}
+						route={s.route}
+					/>
 				))}
 			</div>
 		</div>

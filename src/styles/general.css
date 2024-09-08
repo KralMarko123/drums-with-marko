@@ -7,3 +7,45 @@ body {
 	font-size: 3rem;
 	font-weight: bold;
 }
+
+.subtitle {
+	font-size: 2rem;
+	font-weight: thin;
+	letter-spacing: 1px;
+
+	opacity: 0.8;
+}
+
+.container {
+	width: 80%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	gap: 1em;
+}
+
+.back-button {
+	position: absolute;
+
+	top: 3%;
+	left: 5%;
+
+	background-color: white;
+	padding: 0.5em 1em;
+
+	font-size: 1.5rem;
+	color: var(--base-dark);
+
+	border-radius: 10px;
+
+	cursor: pointer;
+
+	transition: all 0.25s ease-in-out;
+}
+
+.back-button:hover {
+	opacity: 0.75;
+}
