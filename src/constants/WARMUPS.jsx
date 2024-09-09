@@ -39,5 +39,29 @@ export const WARMUPS = [
 		link: 'https://youtu.be/wPKuYU93KIE',
 		title: '4 Beginner Warm-Ups On The Drums',
 		author: 'Drumeo'
+	},
+
+	{
+		link: 'https://youtu.be/BnrYRliu1bI',
+		title: 'Drumming Warm-Up (Beginner) - Drum Lesson',
+		author: 'Drumeo'
+	},
+
+	{
+		link: 'https://youtu.be/Qz_SCuoPVWk',
+		title: 'Drumming Warm-up (Intermediate)',
+		author: 'Drumeo'
+	},
+
+	{
+		link: 'https://youtu.be/TUTi5AgsLTM',
+		title: 'The Ultimate Hands & Feet Warm-Up For Drummers',
+		author: 'Drumeo'
+	},
+
+	{
+		link: 'https://youtu.be/tX0vwgMiRj0',
+		title: '10-Minute Warm up For ALL DRUMMERS! DRUM LESSON',
+		author: 'That Swedish Drummer'
 	}
 ];
