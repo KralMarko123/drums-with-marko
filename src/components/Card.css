@@ -46,6 +46,15 @@
 	opacity: 0;
 }
 
+.card .author {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	right: 5%;
+
+	font-size: 1rem;
+}
+
 .card-image {
 	width: 100%;
 	height: 100%;
@@ -76,4 +85,50 @@
 
 .card.link:hover {
 	transform: scale(0.9) rotate(3deg);
+}
+
+/**TABLET*/
+@media (max-width: 1280px) {
+	.card {
+		height: 300px;
+		width: 100%;
+	}
+
+	.card .title {
+		bottom: 40%;
+
+		font-size: 2rem;
+		text-align: start;
+	}
+
+	.card.link .title{
+		text-align: center;
+	}
+
+	.card .description {
+		font-size: 1rem;
+
+		opacity: 1;
+	}
+}
+
+/**MOBILE*/
+@media (max-width: 780px) {
+	.card {
+		height: 300px;
+		width: 100%;
+	}
+
+	.card .title {
+		top: 10%;
+		bottom: unset;
+
+		font-size: 1.5rem;
+	}
+
+	.card .description {
+		font-size: 0.85rem;
+
+		opacity: 1;
+	}
 }

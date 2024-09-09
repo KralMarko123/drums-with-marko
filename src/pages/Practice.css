@@ -19,3 +19,45 @@
 	width: 100%;
 	height: 400px;
 }
+
+/**TABLET*/
+@media (max-width: 1280px) {
+	.info {
+		width: 100%;
+		font-size: 1rem;
+	}
+
+	.practice .container {
+		width: 100%;
+		flex-wrap: nowrap;
+	}
+
+	.practice .card {
+		height: 150px;
+	}
+}
+
+/**MOBILE*/
+@media (max-width: 780px) {
+	.info {
+		font-size: 0.85rem;
+		text-align: justify;
+	}
+
+	.practice .container {
+		width: 100%;
+		flex-wrap: nowrap;
+	}
+
+	.practice .card {
+		height: 120px;
+	}
+
+	.practice .card.link .title {
+		font-size: 1rem;
+	}
+
+	.practice .card.link .author {
+		font-size: .85rem;
+	}
+}

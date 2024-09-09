@@ -21,6 +21,7 @@ const Songs = () => {
 						link={s.link}
 						title={s.title}
 						image={getThumbnailUrlFromLink(s.link)}
+						author={s.author}
 					/>
 				))}
 			</div>

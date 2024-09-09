@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Card.css';
 
-const Card = ({ title, image, description, route, link }) => {
+const Card = ({ title, image, description, route, link, author }) => {
 	const navigate = useNavigate();
 
 	return (
@@ -13,6 +13,7 @@ const Card = ({ title, image, description, route, link }) => {
 			<img className='card-image' src={image} alt='card-image' loading='lazy' />
 			<h2 className='title'>{title}</h2>
 			<p className='description'>{description}</p>
+			{author && <p className='author'>By {author}</p>}
 		</div>
 	);
 };

@@ -21,6 +21,7 @@ const Exercises = () => {
 						link={e.link}
 						title={e.title}
 						image={getThumbnailUrlFromLink(e.link)}
+						author={e.author}
 					/>
 				))}
 			</div>

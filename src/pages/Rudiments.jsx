@@ -21,6 +21,7 @@ const Rudiments = () => {
 						link={r.link}
 						title={r.title}
 						image={getThumbnailUrlFromLink(r.link)}
+						author={r.author}
 					/>
 				))}
 			</div>

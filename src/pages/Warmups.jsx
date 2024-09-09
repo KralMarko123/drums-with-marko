@@ -21,6 +21,7 @@ const Warmups = () => {
 						link={w.link}
 						title={w.title}
 						image={getThumbnailUrlFromLink(w.link)}
+						author={w.author}
 					/>
 				))}
 			</div>

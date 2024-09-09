@@ -49,3 +49,39 @@ body {
 .back-button:hover {
 	opacity: 0.75;
 }
+
+/**TABLET*/
+@media (max-width: 1280px) {
+	.title {
+		text-align: center;
+	}
+
+	.subtitle {
+		font-size: 1.5rem;
+	}
+
+	.container {
+		width: 100%;
+
+		flex-direction: column;
+		flex-wrap: nowrap;
+
+		gap: 2em;
+	}
+
+	.back-button {
+		display: none;
+	}
+}
+
+/**MOBILE*/
+@media (max-width: 780px) {
+	.title {
+		font-size: 2.5rem;
+	}
+
+	.subtitle {
+		font-size: 1.25rem;
+		text-align: center;
+	}
+}

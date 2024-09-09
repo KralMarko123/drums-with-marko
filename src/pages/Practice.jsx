@@ -28,6 +28,7 @@ const Practice = () => {
 						link={se.link}
 						title={se.title}
 						image={getThumbnailUrlFromLink(se.link)}
+						author={se.author}
 					/>
 				))}
 			</div>

@@ -21,6 +21,7 @@ const Grooves = () => {
 						link={g.link}
 						title={g.title}
 						image={getThumbnailUrlFromLink(g.link)}
+						author={g.author}
 					/>
 				))}
 			</div>
